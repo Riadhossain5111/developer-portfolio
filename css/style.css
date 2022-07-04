@@ -5,7 +5,7 @@ body{
 p{
     color: dimgray;
 }
-                        /*top-banner*/
+                                         /*top-banner*/
 .top-banner{
     background-image: url('/img/top-banner.png');
     background-repeat: no-repeat;
@@ -39,9 +39,40 @@ section{
     border-radius: 5px;
     color: #fff;
 }
-                /*dream-area*/
+                                /*dream-area*/
 .dream-area{
     background-image: url('/img/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.box-shadow{
+    box-shadow: 5px 7px 40px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    border-radius: 5px;
+    
+}
+                        /*experience area*/
+.experience-area{
+    background-image: url('/img/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.head{
+    font-size: 40px;
+}
+
+.full-stack{
+    border-left: 7px solid tomato;
+}
+.baby-web{
+    border-left: 7px solid blue;
+}
+
+.text-center{
+    text-align: center;
+    padding-bottom: 10px;
 }
